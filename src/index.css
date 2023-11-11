@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-prev::before{
+    color: gray !important;
+   
+}
+
+.slick-next::before{
+    color: gray !important;
+   
+}
