@@ -64,7 +64,7 @@ function Footer() {
 
         <div className=' py-4'>
           <p className="text-sm text-gray-600 text-center">
-            &copy; Copyright 2023. All Rights Reserved by MyApp.
+            &copy; Copyright 2023. All Rights Reserved by Threadz.
           </p>
         </div>
 

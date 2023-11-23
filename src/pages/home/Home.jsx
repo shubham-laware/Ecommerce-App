@@ -1,22 +1,30 @@
 import React,{useContext} from 'react'
 import Layout from '../../components/layout/Layout'
-import myContext from '../../context/data/myContext'
 import HomeImage from '../../components/homeImage/HomeImage';
-import FilterComponents from '../../components/filtercomponents/FilterComponents';
-import CardsContainer from '../../components/productcards/CardsContainer';
+import ShirtCards from '../../components/productcards/ShirtCards';
 import Service from '../../components/serviceoffer/Service';
+import PlainTshirtsCard from '../../components/productcards/PlainTshirtsCard';
+import SweatShirtCards from '../../components/productcards/SweatShirtCards';
+import { Navigate } from 'react-router-dom';
+import Testimonial from '../../components/testimonials/Testimonial';
+
+
+
 
 function Home() {
+  
+  const user =localStorage.getItem('user');
 
-  return (
-    <Layout>
-        <HomeImage/>
-       <FilterComponents/>
-       <CardsContainer/>
-       <Service/>
-      
-    </Layout>
-  )
+ return user ?(<Layout>
+  <HomeImage/>
+  <ShirtCards/>
+  <PlainTshirtsCard/>
+  <SweatShirtCards/>
+  <Service/>
+  <Testimonial/>
+</Layout>) : <Navigate to={'/login'}/>
+    
+  
 }
 
 export default Home

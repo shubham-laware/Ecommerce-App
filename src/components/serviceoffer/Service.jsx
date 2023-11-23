@@ -8,7 +8,7 @@ function Service() {
             
 
             <ServiceCard title={'Premium T-shirts'} desc={'Our T-shirts are 100% cotton'} img={'/shirt-outline-svgrepo-com.svg'}/>
-            <ServiceCard title={'Free Shipping'} desc={'We ship all over India for free'} img={'/shipping-truck-svgrepo-com.svg'}/>
+            <ServiceCard title={'Shipping'} desc={'We ship all over India'} img={'/shipping-truck-svgrepo-com.svg'}/>
             <ServiceCard title={'Exciting Offers'} desc={'We provide amazing offers and discounts'} img={'/rupee-line-circle-svgrepo-com.svg'}/>
            
 
