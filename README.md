@@ -1,5 +1,5 @@
 <h2>Description</h2>
-<p>An online e-commerce app where user can shop clothes based on category and price.</p>
+<p>An online e-commerce app where user can shop products based on category and price.</p>
 
 <h2>Features</h2>
 <ul>
