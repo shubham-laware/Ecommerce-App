@@ -14,5 +14,11 @@
   <li>React Js</li>
   <li>Redux Toolkit</li>
   <li>Firebase</li>
+  <li>React-Slick</li>
+  <li>React-headlessui</li>
+  <li>Slick-carousel</li>
 </ol>
+
+<h2>Live Project Link</h2>
+<a href=" https://threadz-5cf81.web.app/">Visit Link</a>
 
