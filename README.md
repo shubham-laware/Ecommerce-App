@@ -20,5 +20,5 @@
 </ol>
 
 <h2>Live Project Link</h2>
-<a href=" https://threadz-5cf81.web.app/">Visit Link</a>
+<a href="https://threadz-5cf81.web.app/">Visit Link</a>
 
