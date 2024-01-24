@@ -1,8 +1,18 @@
-# React + Vite
+<h2>Description</h2>
+<p>An online e-commerce app where user can shop clothes based on category and price.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Features</h2>
+<ul>
+  <li> User : Add to cart, delete from cart, track order history.</li>
+  <li> Admin : Add/ Update/ Delete product. Monitor users, total products and total orders. (only accessible to admin).</li>
+  <li> App : Login/Logout Signup, Razorpay Payment Integration (Test Mode).</li>
+</ul>
+</ul>
 
-Currently, two official plugins are available:
+<h2>Framework/Libraries</h2>
+<ol>
+  <li>React Js</li>
+  <li>Redux Toolkit</li>
+  <li>Firebase</li>
+</ol>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
