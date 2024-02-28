@@ -79,7 +79,6 @@ function PlainTshirtsCard(){
         localStorage.setItem('cart', JSON.stringify(cartItems))
     }, [cartItems])
 
-    console.log(product)
 
 
     const plainTshirtProducts=product.filter((item)=>item.category==='plain t-shirt')

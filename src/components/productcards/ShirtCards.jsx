@@ -80,7 +80,7 @@ function ShirtCards() {
         localStorage.setItem('cart', JSON.stringify(cartItems))
     }, [cartItems])
 
-    console.log(product)
+
 
 
     const shirtProducts = product.filter((item) => item.category === 'shirts')

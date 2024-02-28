@@ -80,7 +80,6 @@ function SweatShirtCards() {
         localStorage.setItem('cart', JSON.stringify(cartItems))
     }, [cartItems])
 
-    console.log(product)
 
 
     const sweatShirtProducts = product.filter((item) => item.category === 'sweatshirt')
